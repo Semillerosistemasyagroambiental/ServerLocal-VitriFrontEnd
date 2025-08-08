@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 314 155">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x=".5" y=".5" width="313" height="154"/>
+  <text class="cls-2" transform="translate(45.5 50.5)"><tspan x="0" y="0">NOMBRE</tspan></text>
+  <image width="3508" height="2500" transform="translate(157 10.87) scale(.04)" xlink:href="9a31d97b-5bcd-4a16-a399-b8fad750a69f.jpg"/>
+</svg>

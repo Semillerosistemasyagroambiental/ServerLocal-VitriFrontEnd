@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 343">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: MyriadHebrew-Regular, 'Myriad Hebrew';
+      }
+
+      .cls-3, .cls-5 {
+        font-size: 15px;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-7, .cls-8, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7, .cls-8, .cls-11, .cls-12 {
+        stroke-width: 2px;
+      }
+
+      .cls-7, .cls-12 {
+        stroke: url(#Degradado_sin_nombre);
+      }
+
+      .cls-13, .cls-12 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+
+      .cls-8 {
+        stroke: url(#Degradado_sin_nombre-3);
+      }
+
+      .cls-10 {
+        fill: #1d1e1c;
+        stroke: #fff;
+      }
+
+      .cls-11 {
+        fill: url(#Degradado_sin_nombre_2-3);
+        stroke: url(#Degradado_sin_nombre-2);
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-5 {
+        fill: #fff;
+        font-family: MyanmarText, 'Myanmar Text';
+        letter-spacing: .02em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-21 {
+        fill: url(#Degradado_sin_nombre_2-2);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-6" x="-46.5" y="46.5" width="343" height="250" rx="12.13" ry="12.13" transform="translate(-46.5 296.5) rotate(-90)"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="-157.97" y1="708.4" x2="-157.97" y2="708.84" gradientTransform="translate(1364961.91 344586.97) scale(8640 -485.92)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="-8.07" y1="251.41" x2="261" y2="251.41" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <path class="cls-12" d="M260,356.82H-7.07v-200.62l11.13-3.12c11.13-3.19,33.38-9.31,55.64-6.25s44.51,15.67,66.77,21.85c22.26,6.25,44.51,6.25,66.77,1.57,22.26-4.68,44.51-14.05,66.77-18.73v205.31Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_2-2" data-name="Degradado sin nombre 2" x1="-157.96" y1="708.78" x2="-157.96" y2="708.93" gradientTransform="translate(-1364685.48 -344423.12) rotate(-180) scale(8640 -485.92)" xlink:href="#Degradado_sin_nombre_2"/>
+    <linearGradient id="Degradado_sin_nombre_2-3" data-name="Degradado sin nombre 2" x1="-157.96" y1="708.78" x2="-157.96" y2="708.93" gradientTransform="translate(-1364685.48 -344423.12) rotate(-180) scale(8640 -485.92)" xlink:href="#Degradado_sin_nombre_2"/>
+    <linearGradient id="Degradado_sin_nombre-2" data-name="Degradado sin nombre" x1="17.34" y1="135.86" x2="286.41" y2="135.86" gradientTransform="translate(276.43 163.86) rotate(-180)" xlink:href="#Degradado_sin_nombre"/>
+    <clipPath id="clippath-2">
+      <path class="cls-11" d="M-8.98-8.92h267.07v63.62l-11.13,3.12c-11.13,3.19-33.38,9.31-55.64,6.25-22.26-3.06-44.51-15.67-66.77-21.85-22.26-6.25-44.51-6.25-66.77-1.57-22.26,4.68-44.51,14.05-66.77,18.73V-8.92Z"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre-3" data-name="Degradado sin nombre" x1="17.34" y1="135.86" x2="286.41" y2="135.86" gradientTransform="translate(276.43 163.86) rotate(-180)" xlink:href="#Degradado_sin_nombre"/>
+    <image id="image" width="2048" height="1536" xlink:href="../../../../../../../Users/user/Downloads/pexels-pixabay-70746.jpg"/>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa_1">
+    <g class="cls-22">
+      <g>
+        <path class="cls-13" d="M260,356.82H-7.07v-200.62l11.13-3.12c11.13-3.19,33.38-9.31,55.64-6.25s44.51,15.67,66.77,21.85c22.26,6.25,44.51,6.25,66.77,1.57,22.26-4.68,44.51-14.05,66.77-18.73v205.31Z"/>
+        <g class="cls-9">
+          <use transform="translate(-48.69 126.67) scale(.17)" xlink:href="#image"/>
+        </g>
+        <path class="cls-7" d="M260,356.82H-7.07v-200.62l11.13-3.12c11.13-3.19,33.38-9.31,55.64-6.25s44.51,15.67,66.77,21.85c22.26,6.25,44.51,6.25,66.77,1.57,22.26-4.68,44.51-14.05,66.77-18.73v205.31Z"/>
+      </g>
+      <g>
+        <rect class="cls-10" x="24" y="288.5" width="198" height="26.5" rx="9" ry="9"/>
+        <text class="cls-5" transform="translate(51.1 306.38) scale(1.15 1)"><tspan x="0" y="0">Disponible pronto</tspan></text>
+      </g>
+      <g>
+        <text class="cls-4" transform="translate(34.6 97.74)"><tspan x="0" y="0">Nomb</tspan><tspan class="cls-20" x="52.22" y="0">r</tspan><tspan x="58.56" y="0">e del p</tspan><tspan class="cls-16" x="114.5" y="0">r</tspan><tspan x="120.84" y="0">odu</tspan><tspan class="cls-1" x="154.1" y="0">c</tspan><tspan class="cls-17" x="163.32" y="0">t</tspan><tspan x="169.82" y="0">o</tspan></text>
+        <text class="cls-3" transform="translate(94.75 122.55)"><tspan class="cls-2" x="0" y="0">C</tspan><tspan class="cls-15" x="8.6" y="0">a</tspan><tspan class="cls-18" x="15.76" y="0">t</tspan><tspan x="20.64" y="0">ego</tspan><tspan class="cls-14" x="44.79" y="0">r</tspan><tspan x="49.76" y="0">ia</tspan></text>
+      </g>
+      <g>
+        <path class="cls-21" d="M-8.98-8.92h267.07v63.62l-11.13,3.12c-11.13,3.19-33.38,9.31-55.64,6.25-22.26-3.06-44.51-15.67-66.77-21.85-22.26-6.25-44.51-6.25-66.77-1.57-22.26,4.68-44.51,14.05-66.77,18.73V-8.92Z"/>
+        <g class="cls-19">
+          <use transform="translate(-48 -81) scale(.16)" xlink:href="#image"/>
+        </g>
+        <path class="cls-8" d="M-8.98-8.92h267.07v63.62l-11.13,3.12c-11.13,3.19-33.38,9.31-55.64,6.25-22.26-3.06-44.51-15.67-66.77-21.85-22.26-6.25-44.51-6.25-66.77-1.57-22.26,4.68-44.51,14.05-66.77,18.73V-8.92Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

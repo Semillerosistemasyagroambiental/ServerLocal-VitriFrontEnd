@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 250">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 76.41px;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" width="400" height="250" rx="26.16" ry="26.16"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect x="-34" y="-55" width="228.65" height="258"/>
+    </clipPath>
+  </defs>
+  <g class="cls-7">
+    <text class="cls-1" transform="translate(213.78 49.68)"><tspan x="0" y="0">lo</tspan><tspan class="cls-6" x="15.7" y="0">r</tspan><tspan x="22.04" y="0">em</tspan></text>
+    <text class="cls-2" transform="translate(216.78 145.9) scale(.91 1)"><tspan x="0" y="0">lo</tspan><tspan class="cls-3" x="59.98" y="0">r</tspan><tspan x="84.21" y="0">em</tspan></text>
+    <g>
+      <rect x="-34" y="-55" width="228.65" height="258"/>
+      <g class="cls-5">
+        <image width="2048" height="1536" transform="translate(-104.92 -78.23) scale(.22)" xlink:href="../../../../../../Users/user/Downloads/pexels-pixabay-70746.jpg"/>
+      </g>
+    </g>
+  </g>
+</svg>
