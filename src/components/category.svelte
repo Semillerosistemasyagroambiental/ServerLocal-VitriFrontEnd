@@ -26,7 +26,7 @@
 </script>
 
 
-  <div class="div mb-n3 border-top border-2 pb-1">
+  <div class="div mb-n3 pb-1">
     <ul class="ul mb-0 py-3 mt-1 border-radius-lg">
       <li class="li ms-n4">
         <a class="carta text-dark { $selectedCategory === 'all' ? 'selected' : '' }" href="/" on:click|preventDefault={() => selectCategory('all')}><span class=" me-xl-0 { $selectedCategory === "all" ? 'text-success' : '' }">Todos</span>

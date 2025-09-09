@@ -89,7 +89,7 @@
     <Nav/>
     <Header/>
     
-    <div class="mx-0 mb-4">
+    <!-- <div class="mx-0 mb-4">
       {#if productosEnPromocion.length > 0 }
         <div class="row my-2 mx-2 pb-1 mx-md-2 mx-md-5">
           <img class="ms-n2 mt-n1" src="/img/icon/star.png" alt="🌟" style="width: 53px; height: 28px">
@@ -100,7 +100,7 @@
       <Sliderly/>
 
       {/if}
-    </div>
+    </div> -->
     
     <Car/>
     <ModalAnuncio/>

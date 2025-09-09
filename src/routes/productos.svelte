@@ -144,11 +144,11 @@ function formatearFecha(fechaISO) {
                                     {:else}
                                     <p class="text-sm mb-0 text-center mx-4 bg-danger border-radius-2xl text-white font-weight-bold">No activo</p>
                                     {/if}
-                                    {#if values.is_promocion === true}
+                                    <!-- {#if values.is_promocion === true}
                                     <p class="text-sm mt-1 text-center mb-0"><span class="text-success font-weight-bold">En Oferta <span class="text-warning">{Math.trunc(values.descuento)}%</span></span></p>
                                     {:else}
                                     <p class="text-sm mt-1 text-center mb-0"><span class="text-danger font-weight-bold">Sin oferta</span></p>
-                                    {/if}
+                                    {/if} -->
     
                                 </td>
 
