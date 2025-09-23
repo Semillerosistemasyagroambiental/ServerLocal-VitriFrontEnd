@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "dev:svelte": "vite",
     "dev:python": "python ../ruta_a_tu_backend/nombre_del_archivo.py",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d dist" 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@smui/button": "^7.0.0",
@@ -33,6 +33,7 @@
     "svelte-modal": "^0.4.0",
     "svelte-routing": "^2.13.0",
     "svelte-vitrina": "file:",
-    "sweetalert2": "^11.6.13"
+    "sweetalert2": "^11.6.13",
+    "xlsx": "^0.18.5"
   }
 }
