@@ -2241,6 +2241,11 @@
       flex: 0 0 auto;
       width: 16.666667%;
     }
+
+    .col-xxl-2a {
+      flex: 0 0 auto;
+      width: 12.5%;
+    }
   
     .col-xxl-2b {
       flex: 0 0 auto;

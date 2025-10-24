@@ -204,7 +204,7 @@
 
                 <div class="row">
                     {#each paginatedProductos as producto}
-                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 col-xxl-2 mb-2 px-1 d-flex">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 col-xxl-2a mb-2 px-1 d-flex">
                         <div class="card bg-gray w-100 d-flex flex-column" style="height: 100%;">
                             <!-- Badge de ID / estado -->
                             {#if producto.id}
@@ -254,13 +254,13 @@
                             </div>
                             
                             <div class="card-body p-2 d-flex flex-column flex-grow-1">
-                                <h6 class="text-dark text-center nombre mb-1"
+                                <h6 class="text-dark text-center nombre mb-0 mt-n1"
                                     style="min-height: 35px; display: flex; align-items: center; justify-content: center; line-height: 1.0;">
                                     {producto.nombre}
                                 </h6>
                                 
                                 <!-- Precio -->
-                                <div class="text-dark text-center border-bottom pb-1 border-gray mb-2">
+                                <div class="text-dark text-center border-bottom border-gray mb-1">
                                     <span class="text-success font-weight-bold">$ {producto.precio}</span>
                                     {#if producto.is_promocion}
                                         <br>
@@ -274,7 +274,7 @@
                                 <div class="mt-auto text-center">
                                     <a class="btn mb-0 bg-info text-sm text-white btn-sm me-1" 
                                        href="/producto/{producto.id}">
-                                        editar
+                                        ✎
                                     </a>
                                     <button class="btn mb-0 btn-danger text-sm btn-sm" 
                                             on:click={() => handleEliminar(producto.id)}>

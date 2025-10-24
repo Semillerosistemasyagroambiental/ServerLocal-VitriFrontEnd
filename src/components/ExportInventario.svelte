@@ -128,7 +128,7 @@ async function exportar() {
     <option value="pagina">Solo esta página</option>
 </select>
 
-<button class="btn mb-0 btn-sm btn-outline-primary" on:click={exportar}>
+<button class="btn mb-0 btn-sm btn-outline-success" on:click={exportar}>
     Exportar Excel
 </button>
 </div>
