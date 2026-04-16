@@ -250,7 +250,7 @@ function showAlert() {
               </div>
             </div>
   
-            <!-- <div class="col-auto">
+            <div class="col-auto">
               <div class="border-radius-2xl {is_promocion === true ? 'activo': 'border' } p-2">
                 <span>Decuento?</span>
                 <div class="form-check form-switch"><span class="ms-2">{is_promocion === true ? 'Si': 'No' }</span> 
@@ -264,7 +264,7 @@ function showAlert() {
                 <label for="descuento">% Descuento</label>
                 <input type="number" placeholder="cuanto es el % ?" class="form-control" bind:value={descuento} />
               </div>
-            </div> -->
+            </div>
   
             <div class="col-12 col-md-6">
               <label for="id_categorias" class="form-label">Categoría</label>
