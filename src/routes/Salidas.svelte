@@ -25,7 +25,7 @@
     try {
       // Obtener detalles del producto por su ID
       if (id) {
-        const product = await fetchWithAuth(`http://127.0.0.1:5000/api/admin/productos/${id}`);      
+        const product = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/admin/productos/${id}`);      
         if (product) {
           // Asignar datos del producto para mostrar
           sku = product.sku || "";
@@ -55,7 +55,7 @@
 
   try {
     // Llama a fetchWithAuth y obtiene los datos como JSON si están disponibles
-    const data = await fetchWithAuth("http://127.0.0.1:5000/api/admin/salidas", {
+    const data = await fetchWithAuth("https://vitri-api.ocloudev.lat/api/admin/salidas", {
       method: "POST",
       body: JSON.stringify(formData),
     });

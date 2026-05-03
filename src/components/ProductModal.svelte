@@ -9,7 +9,7 @@
     // Función para obtener el producto por ID
     async function fetchProduct(id) {
       try {
-        const response = await fetch(`http://127.0.0.1:5000/api/publico/productos/${id}`);
+        const response = await fetch(`https://vitri-api.ocloudev.lat/api/publico/productos/${id}`);
         if (!response.ok) {
           throw new Error("No se pudo cargar la información del producto");
         }

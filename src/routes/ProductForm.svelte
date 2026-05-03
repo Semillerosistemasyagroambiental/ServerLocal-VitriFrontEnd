@@ -35,7 +35,7 @@
 
       // Si hay un id, obtener detalles del producto (ya como JSON)
       if (id) {
-        const product = await fetchWithAuth(`http://127.0.0.1:5000/api/admin/productos/${id}`);      
+        const product = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/admin/productos/${id}`);      
         if (product) {
 
           sku = product.sku || "";
@@ -89,8 +89,8 @@
     try {
       const method = id ? "PATCH" : "POST";
       const url = id
-        ? `http://127.0.0.1:5000/api/admin/productos/${id}`
-        : `http://127.0.0.1:5000/api/admin/productos`;
+        ? `https://vitri-api.ocloudev.lat/api/admin/productos/${id}`
+        : `https://vitri-api.ocloudev.lat/api/admin/productos`;
 
       // Usar fetchWithAuth en lugar de fetch
       const response = await fetchWithAuth(url, {

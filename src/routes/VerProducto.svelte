@@ -22,7 +22,7 @@
   async function fetchProducto() {
     try {
       // Realiza la solicitud para obtener el producto por ID
-      const response = await fetch(`http://127.0.0.1:5000/api/publico/productos/${id}`);
+      const response = await fetch(`https://vitri-api.ocloudev.lat/api/publico/productos/${id}`);
 
       // Verifica si la respuesta fue exitosa
       if (!response.ok) {

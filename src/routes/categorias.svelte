@@ -33,7 +33,7 @@
         });
 
         if (result.isConfirmed) {
-            const response = await fetchWithAuth(`http://127.0.0.1:5000/api/admin/categorias/${id_categorias}`, {
+            const response = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/admin/categorias/${id_categorias}`, {
                 method: 'DELETE',
             });
 

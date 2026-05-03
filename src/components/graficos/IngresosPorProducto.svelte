@@ -20,7 +20,7 @@
     onMount(async () => {
       try {
         // Llamada a la API para obtener los ingresos por producto
-        const response = await fetch("http://127.0.0.1:5000/api/admin/stats/ingresos-por-producto");
+        const response = await fetch("https://vitri-api.ocloudev.lat/api/admin/stats/ingresos-por-producto");
         if (!response.ok) {
           throw new Error("Error al obtener los datos de ingresos por producto");
         }

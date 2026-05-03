@@ -18,7 +18,7 @@
 
   onMount(async () => {
     // Si hay un id, obtener detalles del producto (ya como JSON)
-    const user = await fetchWithAuth(`http://127.0.0.1:5000/api/usuarios/perfil`);
+    const user = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/usuarios/perfil`);
     if (user) {
 
       nombres = user.nombres || "";
@@ -54,7 +54,7 @@
 
     try {
       const method = "PATCH";
-      const url = "http://127.0.0.1:5000/api/usuarios/perfil";
+      const url = "https://vitri-api.ocloudev.lat/api/usuarios/perfil";
 
       const response = await fetchWithAuth(url, {
         method,
@@ -90,7 +90,7 @@
 
     try {
       const method = "PATCH";
-      const url = "http://127.0.0.1:5000/api/usuarios/perfil";
+      const url = "https://vitri-api.ocloudev.lat/api/usuarios/perfil";
 
       const response = await fetchWithAuth(url, {
         method,

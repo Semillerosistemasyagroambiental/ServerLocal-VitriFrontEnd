@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 export async function getPedidosAdmin() {
     try {
-        const pedidos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/pedidos');
+        const pedidos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/pedidos');
         return pedidos;
     } catch (error) {
         console.error('Error fetching pedidos:', error);
@@ -15,7 +15,7 @@ export async function getPedidosAdmin() {
 
 export async function getPedidosMod() {
     try {
-        const pedidos = await fetchWithAuth('http://127.0.0.1:5000/api/mod/pedidos');
+        const pedidos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/mod/pedidos');
         return pedidos;
     } catch (error) {
         console.error('Error fetching pedidos:', error);
@@ -25,7 +25,7 @@ export async function getPedidosMod() {
 
 export async function getMisPedidos() {
     try {
-        const pedidos = await fetchWithAuth('http://127.0.0.1:5000/api/usuarios/pedidos');
+        const pedidos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/usuarios/pedidos');
         return pedidos;
     } catch (error) {
         console.error('Error fetching pedidos:', error);
@@ -38,7 +38,7 @@ export async function getMisPedidos() {
 export async function getPedidosPendientes() {
     try {
       // Realiza la solicitud a la API para obtener todos los pedidos
-      const pedidos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/pedidos');
+      const pedidos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/pedidos');
   
       // Filtra los pedidos con estado PENDIENTE
       const pendientes = pedidos.filter(pedido => pedido.estado_pedido === 'PENDIENTE');

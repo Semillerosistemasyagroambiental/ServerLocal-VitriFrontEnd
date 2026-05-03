@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 let listUsuarios = [];
 export async function getUsuarios() {
     try {
-        const usuarios = await fetchWithAuth('http://127.0.0.1:5000/api/admin/usuarios');
+        const usuarios = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/usuarios');
         return usuarios;
     } catch (error) {
         console.error('Error fetching usuarios:', error);
@@ -30,7 +30,7 @@ export async function eliminarUsuario(id) {
         });
         
         if (result.isConfirmed) {
-            const response = await fetchWithAuth(`http://127.0.0.1:5000/api/admin/usuarios/${id}`, {
+            const response = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/admin/usuarios/${id}`, {
                 method: 'DELETE',
             });
 

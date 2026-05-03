@@ -4,7 +4,7 @@ import { fetchWithAuth } from './auth'; // Verifica que la ruta sea correcta
 export async function getPedidosIndex() {
     try {
       // Realiza la solicitud a la API para obtener todos los pedidos
-      const pedidos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/pedidos');
+      const pedidos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/pedidos');
 
       // Devuelve el número de pedidos pendientes
       return pedidos.length;
@@ -18,7 +18,7 @@ export async function getPedidosIndex() {
   export async function getProductosIndex() {
     try {
       // Realiza la solicitud a la API para obtener todos los productos
-      const productos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/productos');
+      const productos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/productos');
   
       // Devuelve el número de productos pendientes
       return productos.length;
@@ -32,7 +32,7 @@ export async function getPedidosIndex() {
   export async function getCategoriasIndex() {
     try {
       // Realiza la solicitud a la API para obtener todos los productos
-      const productos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/categorias');
+      const productos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/categorias');
   
       // Devuelve el número de productos pendientes
       return productos.length;
@@ -46,7 +46,7 @@ export async function getPedidosIndex() {
   export async function getUsuariosIndex() {
     try {
       // Realiza la solicitud a la API para obtener todos los productos
-      const productos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/usuarios');
+      const productos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/usuarios');
   
       // Devuelve el número de productos pendientes
       return productos.length;

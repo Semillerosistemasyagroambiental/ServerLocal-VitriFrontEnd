@@ -31,7 +31,7 @@
   async function fetchPedido() {
     if (id) {
       try {
-        const data = await fetchWithAuth(`http://127.0.0.1:5000/api/usuarios/pedidos/${id}`);
+        const data = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/usuarios/pedidos/${id}`);
         console.log('Datos recibidos:', data);
 
         // Verifica si la respuesta tiene la estructura que esperas
@@ -51,7 +51,7 @@
 
   async function cambiarEstado(nuevoEstado) {
   try {
-    const response = await fetchWithAuth(`http://127.0.0.1:5000/api/usuarios/mipedido/${pedido?.id_pedido}`, {
+    const response = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/usuarios/mipedido/${pedido?.id_pedido}`, {
       method: 'PATCH',
       body: JSON.stringify({
         estado_pedido: nuevoEstado

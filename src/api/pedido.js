@@ -90,7 +90,7 @@ export async function createPedido() {
 
         console.log('Datos del pedido:', JSON.stringify(pedido));
 
-        const response = await fetchWithAuth('http://127.0.0.1:5000/api/usuarios/pedidos', {
+        const response = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/usuarios/pedidos', {
             method: 'POST',
             body: JSON.stringify(pedido)
         });

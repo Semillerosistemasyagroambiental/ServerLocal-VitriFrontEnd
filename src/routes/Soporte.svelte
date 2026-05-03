@@ -24,7 +24,7 @@
     async function fetchPedido() {
     try {
         // Aquí `response` es el objeto de datos directamente
-        const data = await fetchWithAuth(`http://127.0.0.1:5000/api/usuarios/pedidos/${id}`);
+        const data = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/usuarios/pedidos/${id}`);
         console.log('Datos recibidos:', data);
 
         // Ahora verifica si data es el cuerpo de respuesta esperado

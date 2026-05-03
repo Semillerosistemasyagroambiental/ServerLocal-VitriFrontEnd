@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 export async function getEntradas() {
     try {
-        const salidas = await fetchWithAuth('http://127.0.0.1:5000/api/admin/entradas');
+        const salidas = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/entradas');
         return salidas;
     } catch (error) {
         console.error('Error fetching salidas:', error);

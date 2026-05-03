@@ -11,7 +11,7 @@
   onMount(async () => {
     try {
       // Obtener productos desde API
-      const responseProductos = await fetch("http://127.0.0.1:5000/api/publico/productos");
+      const responseProductos = await fetch("https://vitri-api.ocloudev.lat/api/publico/productos");
       listProductos = await responseProductos.json();
 
       // Asegurarse de que el array de productos no esté vacío

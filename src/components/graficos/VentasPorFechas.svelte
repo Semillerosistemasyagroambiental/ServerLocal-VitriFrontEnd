@@ -35,7 +35,7 @@
 
   async function cargarVentasUltimos6Meses() {
       try {
-          const response = await fetch("http://127.0.0.1:5000/api/admin/stats/ventas-ultimos-6-meses");
+          const response = await fetch("https://vitri-api.ocloudev.lat/api/admin/stats/ventas-ultimos-6-meses");
           if (!response.ok) {
               throw new Error("Error al cargar los datos.");
           }

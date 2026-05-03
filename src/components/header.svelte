@@ -18,7 +18,7 @@
   // Fetch para obtener las categorías y sus URLs de las imágenes
   async function getBanner() {
       try {
-          const response = await fetch('http://127.0.0.1:5000/api/publico/banner');
+          const response = await fetch('https://vitri-api.ocloudev.lat/api/publico/banner');
           const data = await response.json();
 
           // Suponiendo que el JSON tiene una estructura como: [{url_imagen: 'ruta1', posicion_y: 80}, {url_imagen: 'ruta2', posicion_y: 50}, ...]

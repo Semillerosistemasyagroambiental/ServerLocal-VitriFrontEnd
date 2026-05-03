@@ -4,7 +4,7 @@ import { fetchWithAuth } from './auth'; // Verifica que la ruta sea correcta
 
 export async function getBanners() {
     try {
-        const categorias = await fetchWithAuth('http://127.0.0.1:5000/api/admin/banner');
+        const categorias = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/banner');
         return categorias;  
     } catch (error) {
         console.error('Error fetching categorias:', error);

@@ -8,7 +8,7 @@
   // Obtener categorías cuando el componente se monta
   onMount(async () => {
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/publico/categorias');
+      const response = await fetch('https://vitri-api.ocloudev.lat/api/publico/categorias');
       if (!response.ok) {
         throw new Error('Error al obtener las categorías');
       }

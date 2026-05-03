@@ -42,7 +42,7 @@
     async function cargarDatos() {
       try {
         // Construir la URL con parámetros
-        let url = `http://127.0.0.1:5000/api/admin/stats/ventas-productos-por-fecha?limite=${limite}`;
+        let url = `https://vitri-api.ocloudev.lat/api/admin/stats/ventas-productos-por-fecha?limite=${limite}`;
         if (fechaInicio) url += `&fecha_inicio=${fechaInicio}`;
         if (fechaFin) url += `&fecha_fin=${fechaFin}`;
   

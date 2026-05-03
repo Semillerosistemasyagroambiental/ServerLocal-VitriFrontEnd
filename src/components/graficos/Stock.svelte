@@ -32,7 +32,7 @@
   async function cargarDatos() {
     try {
       // Llamada a la API para obtener los datos de stock
-      const response = await fetch("http://127.0.0.1:5000/api/admin/stats/productos-stock");
+      const response = await fetch("https://vitri-api.ocloudev.lat/api/admin/stats/productos-stock");
       if (!response.ok) {
         throw new Error("Error al obtener los datos");
       }

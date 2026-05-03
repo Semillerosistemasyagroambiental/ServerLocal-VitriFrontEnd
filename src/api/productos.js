@@ -6,7 +6,7 @@ import Swal from "sweetalert2";
 let listProductos = [];
 export async function getProductos() {
     try {
-        const productos = await fetchWithAuth('http://127.0.0.1:5000/api/admin/productos');
+        const productos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/admin/productos');
         return productos;
     } catch (error) {
         console.error('Error fetching productos:', error);
@@ -17,7 +17,7 @@ export async function getProductos() {
 
 export const getProductosAPedir = async () => {
     try {
-        const productos = await fetchWithAuth('http://127.0.0.1:5000/api/publico/productos');
+        const productos = await fetchWithAuth('https://vitri-api.ocloudev.lat/api/publico/productos');
         return productos;
     } catch (error) {
         console.error('Error fetching productos:', error);
@@ -42,7 +42,7 @@ export async function eliminarProducto(id) {
         });
         
         if (result.isConfirmed) {
-            const response = await fetchWithAuth(`http://127.0.0.1:5000/api/admin/productos/${id}`, {
+            const response = await fetchWithAuth(`https://vitri-api.ocloudev.lat/api/admin/productos/${id}`, {
                 method: 'DELETE',
             });
 

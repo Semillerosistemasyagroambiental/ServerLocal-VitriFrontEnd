@@ -24,11 +24,11 @@
   onMount(async () => {
     try {
       // Obtener productos
-      const responseProductos = await fetch("http://127.0.0.1:5000/api/publico/productos");
+      const responseProductos = await fetch("https://vitri-api.ocloudev.lat/api/publico/productos");
       listProductos = await responseProductos.json();
       
       // Obtener categorías
-      const responseCategorias = await fetch("http://127.0.0.1:5000/api/publico/categorias");
+      const responseCategorias = await fetch("https://vitri-api.ocloudev.lat/api/publico/categorias");
       categorias = await responseCategorias.json();
       
     } catch (error) {
@@ -63,7 +63,7 @@
   // Lógica para obtener productos desde API u otra fuente
   onMount(async () => {
     try {
-      const responseProductos = await fetch("http://127.0.0.1:5000/api/publico/productos");
+      const responseProductos = await fetch("https://vitri-api.ocloudev.lat/api/publico/productos");
       listProductos = await responseProductos.json();
     } catch (error) {
       console.error('Error al obtener productos:', error);
